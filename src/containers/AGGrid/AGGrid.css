@@ -1,0 +1,35 @@
+.ag-grid {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}
+
+.ag-theme-alpine {
+    --ag-header-height: 30px;
+    --ag-header-foreground-color: #ffffff;
+    --ag-header-background-color: #009879;
+    --ag-header-cell-hover-background-color: rgb(80, 40, 140);
+    --ag-header-cell-moving-background-color: rgb(80, 40, 140);
+    height: 520px;
+    width: 80%;
+  }
+  .ag-theme-alpine .ag-header {
+    font-family: cursive;
+  }
+  .ag-theme-alpine .ag-header-group-cell {
+    font-weight: normal;
+    font-size: 22px;
+  }
+  .ag-theme-alpine .ag-header-cell {
+    font-size: 18px;
+  }
+
+.ag-grid-rows {
+    background-color: #f3f3f3 !important;
+  }
+
+.ag-grid-header {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
